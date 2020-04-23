@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order_summary">
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        android:textColor="#FF5722"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/d1"
+        android:layout_marginTop="35dp"
+
+        android:textColor="#FF5722"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/d3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/d2"
+        android:layout_marginTop="32dp"
+
+        android:textColor="#FF5722"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/d4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/d3"
+        android:layout_marginTop="42dp"
+
+        android:textColor="#FF5722"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Rating"
+        android:layout_width="288dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/d4"
+
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="61dp"
+        android:background="@color/colorAccent"
+
+        android:onClick="feedback"
+        android:text="Rate App"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Menu">
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:text="Welcome! Order your favorite home food package using our new app!"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text= "Home Food Pack (S)"
+        android:textSize="22sp"
+        android:textColor ="#ffffff"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/CPSmall1"
+
+        />
+<!--        android:onClick="CPSmall"-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text= "Home Food Pack (M)"
+        android:textSize="22sp"
+        android:textColor ="#ffffff"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/CPMedium1"
+
+        />
+<!--        android:onClick="CPMedium"-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Home Food Pack (L)"
+        android:textSize="22sp"
+        android:textColor ="#ffffff"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/CPLarge1"
+        />
+<!--        android:onClick="CPLarge"-->
+
+
+
+
+</LinearLayout>
